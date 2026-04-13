@@ -11,6 +11,7 @@ Este repositorio contiene la solución completa a los tres ejercicios de Anális
 
 # ESTRUCTURA DEL REPOSITORIO
 
+```
 ASD-Ejercicios/
 ├── README.md
 ├── ejercicio1/
@@ -21,6 +22,7 @@ ASD-Ejercicios/
 │   └── ejercicio3.py
 └── informe/
     └── informe_ASD.pdf
+```
 
 # EJERCICIOS
 
