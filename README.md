@@ -30,14 +30,19 @@ ASD-Ejercicios/
 
 Gramática original:
 
-S → A B C      S → D E  
-A → dos B tres A → ε  
-B → B cuatro C cinco  
-B → ε  
-C → seis A B   C → ε  
-D → uno A E    D → B  
-E → tres  
-
+```
+S → A B C
+S → D E
+A → dos B tres
+A → ε
+B → B cuatro C cinco
+B → ε
+C → seis A B
+C → ε
+D → uno A E
+D → B
+E → tres
+```
 Tareas:
 
 - Eliminar recursividad izquierda (en B)
@@ -58,10 +63,18 @@ uno dos tres cuatro cinco seis
 
 Gramática original:
 
-S → B uno      S → dos C     S → ε  
-A → S tres B C A → cuatro    A → ε  
-B → A cinco C seis           B → ε  
-C → siete B    C → ε  
+```
+S → B uno
+S → dos C
+S → ε
+A → S tres B C
+A → cuatro
+A → ε
+B → A cinco C seis
+B → ε
+C → siete B
+C → ε
+```
 
 Tareas:
 
@@ -82,10 +95,16 @@ uno dos tres cuatro cinco seis siete
 
 Gramática original:
 
-S → A B C      S → S uno  
-A → dos B C    A → ε  
-B → C tres     B → ε  
-C → cuatro B   C → ε  
+```
+S → A B C
+S → S uno
+A → dos B C
+A → ε
+B → C tres
+B → ε
+C → cuatro B
+C → ε
+```
 
 Tareas:
 
