@@ -1,8 +1,3 @@
-"""
-ejercicio 1 - asdr
-gramática original
-"""
-
 import sys
 
 # lexer simple
